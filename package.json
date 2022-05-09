@@ -1,0 +1,21 @@
+{
+  "name": "@qurugi0347/package-test",
+  "version": "1.0.1",
+  "description": "test package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "qurugi0347",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:qurugi0347/github-package-test.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "@qurugi0347/package-test": "^1.0.1"
+  }
+}
